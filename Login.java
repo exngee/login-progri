@@ -22,8 +22,9 @@ public class Login {
             UserAccount login = new UserAccount(usernev, jelszo);
 
             if(login.checkPassword())
-                System.out.println("You are logged in!");
+                System.out.println("Sikeresen bejelentkeztél!");
             else
                 System.out.println("A megadott jelszó, vagy felhasználónév helytelen.");
         }
    }
+
